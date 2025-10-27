@@ -1,1 +1,8 @@
-*.[Jj][Pp][Ee]?[Gg]
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.bmp
+*.tiff
