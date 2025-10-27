@@ -1,0 +1,9 @@
+we need:
+
+-way to sign in
+-way to add photos easy
+-have a way to store for each race in its own thing
+-thumbnails
+-when enlarged switch to next photo w arrow
+-easy nav, look good, look sexy
+-way to search for a bib

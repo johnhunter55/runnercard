@@ -1,0 +1,90 @@
+body{
+  background-color: #D6D6D6;
+  padding: 0px;
+  margin: 0px;
+}
+
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4c4c4c;
+  width: 100%;
+  height: 100vh;
+}
+
+.carousel {
+  width: 100%; /* Full viewport width */
+  max-width: 1500px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.carousel img{
+  justify-content: center;
+}
+.slides img{
+  max-width: 100%; /* Allow image to be wider if possible */
+}
+
+.slides{
+  position: relative;
+}
+
+/* Top button bar for controls */
+.button-bar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* Common styles for all buttons */
+.btn {
+  background-color: rgb(36, 36, 36); /* Semi-transparent black */
+  color: white; /* White text */
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+  background-color: rgba(43, 43, 43, 0.8); /* Lighter background */
+  color: black; /* Darker text */
+}
+
+
+/* Specific styles for the "X" close button */
+.close {
+  position: absolute;
+  background-color: #52abfb; /* Red for emphasis */
+  font-size: 20px; /* Larger size */
+  top: 0px;  /* Adjust as needed */
+  right: 0px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Specific styles for the download button */
+.download {
+  background-color: #52abfb; /* Green for download */
+  margin: 20px;
+}
+
+.arrows{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+/* Arrow button sizes */
+.prev, .next {
+  height: 60px;
+  margin: 20px;
+}
